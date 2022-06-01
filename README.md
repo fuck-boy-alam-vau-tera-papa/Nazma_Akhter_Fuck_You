@@ -19,12 +19,11 @@ $pip2 install bs4
 
  $pkg install git 
 
-$git clone https://github.com/cyberattack07/alamgirpriyaa.git
+Basic
 
-$ls 
 
-$cd alamgirpriyaa
 
-$ls 
 
-$python alamgirpriyaa.py
+
+
+
